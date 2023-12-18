@@ -2,7 +2,7 @@
 
 服务器地址：42.202.32.204:62455 （服务器信息：Java 1.20.4，正版验证，极限模式，目前仅添加了此数据包）
 
-[后续开发计划](https://github.com/archerlll/CountDown/wiki/Develop-Plan)
+[**后续开发计划**](https://github.com/archerlll/CountDown/wiki/%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92-Develop-Plan)
 
 ## Star History
 
