@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:yellow_banner"
+    },
+    "title": {
+      "text": "Integral"
+    },
+    "description": "",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "IntegrationRoot": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {}
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "IntegrationRoot"
+    ]
+  ],
+  "rewards": {
+    "function": "countdown:reward/init_player"
+  },
+  "sends_telemetry_event": true
+}

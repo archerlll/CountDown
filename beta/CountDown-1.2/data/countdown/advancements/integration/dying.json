@@ -1,0 +1,40 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:totem_of_undying"
+      },
+      "title": "Dying",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "countdown:integration/root",
+    "criteria": {
+      "Dying": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "Integration": {
+                  "max": 10
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "Dying"
+      ]
+    ],
+    "rewards": {
+      "function": "countdown:reward/dying"
+    }
+  }
+  
