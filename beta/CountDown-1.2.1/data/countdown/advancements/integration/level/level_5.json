@@ -1,0 +1,42 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:experience_bottle"
+      },
+      "title": "LevelUp 5",
+      "description": "",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "countdown:integration/root",
+    "criteria": {
+      "Level 5": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player",
+                "type_specific": {
+                  "type": "player",
+                  "level": 5
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "Level 5"
+      ]
+    ],
+    "rewards": {
+      "function": "countdown:reward/level/level_5"
+    }
+  }
+  
