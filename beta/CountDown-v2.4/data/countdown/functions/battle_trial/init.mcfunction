@@ -1,0 +1,2 @@
+#战斗试炼难度
+scoreboard objectives add BattleTrialDifficult trigger

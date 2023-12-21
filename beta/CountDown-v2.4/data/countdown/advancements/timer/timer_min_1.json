@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": "1 min",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "countdown:timer/timer_tick_1",
+  "criteria": {
+    "Min1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "TimerMin1": {
+                "min": 1200
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "Integration": {
+                "min": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "Min1"
+    ]
+  ],
+  "rewards": {
+    "function": "countdown:timer/timer_min_1"
+  },
+  "sends_telemetry_event": true
+}

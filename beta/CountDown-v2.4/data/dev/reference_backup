@@ -1,0 +1,24 @@
+trial_spawner{}
+
+ticks_between_spawn: 20
+
+spawn_potentials: [{data:...}]
+
+{
+  data: {
+    entity: {
+      id: "minecraft:..."
+    }
+  },
+  weight: 1
+}
+
+loot_tables_to_eject: [{data:{}, weight: 1}]
+
+x:
+y:1
+z:
+
+simultaneous_mobs: 3.0f
+simultaneous_mobs_added_per_player:2.0f
+id: "minecraft:trial_spawner"
