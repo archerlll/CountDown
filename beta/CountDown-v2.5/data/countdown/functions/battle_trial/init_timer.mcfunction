@@ -1,0 +1,1 @@
+scoreboard objectives add BattleTrialTimer dummy "battle trial timer"
