@@ -1,0 +1,9 @@
+new:
+    战斗挑战进度中有提示"/trigger ..."
+    战斗挑战有初始化难度为1了
+    更改了integration/reward/init_player的位置到functions/下
+    增加了难度/peaceful、easy、normal、hard、
+
+dev:
+    不知道几种难度设置什么怪比较好，目前已经确定的一直时骑着史莱姆的骷髅
+old:
