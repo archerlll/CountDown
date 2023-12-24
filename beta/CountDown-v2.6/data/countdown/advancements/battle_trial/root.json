@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:trial_spawner"
+      },
+      "title": "BattleTrial",
+      "description": "/trigger BattleTrialDifficult 1..",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "countdown:integration/root",
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "requirements": [
+      [
+        "tick"
+      ]
+    ],
+    "rewards": {
+      "function": "countdown:battle_trial/timer_tick_1"
+    }
+  }
+  
