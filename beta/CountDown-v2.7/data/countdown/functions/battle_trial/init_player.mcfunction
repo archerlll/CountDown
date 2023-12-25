@@ -1,0 +1,1 @@
+trigger BattleTrialDifficult set 1

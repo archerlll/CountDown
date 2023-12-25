@@ -1,0 +1,1 @@
+execute as @s at @s run gamemode survival @p[limit=1,gamemode=spectator]
